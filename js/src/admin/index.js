@@ -52,7 +52,7 @@ app.initializers.add('quasimo-llms-txt', () => {
       setting: 'llms_txt.custom_intro',
       label: app.translator.trans('quasimo-llms-txt.admin.settings.custom_intro_label'),
       help: app.translator.trans('quasimo-llms-txt.admin.settings.custom_intro_help'),
-      type: 'textarea',
+      type: 'text',
       placeholder: app.translator.trans('quasimo-llms-txt.admin.settings.custom_intro_placeholder'),
     });
 });

@@ -15,9 +15,4 @@ return [
 
     // Register locale files
     new Extend\Locales(__DIR__ . '/resources/locale'),
-
-    // Serialize settings to admin so the JS can read saved values
-    (new Extend\Settings())
-        ->serializeToForum('llmsTxtEnabled', 'llms_txt.enabled', 'boolval', true)
-        ->serializeToForum('llmsTxtFullEnabled', 'llms_txt.full_enabled', 'boolval', true),
 ];

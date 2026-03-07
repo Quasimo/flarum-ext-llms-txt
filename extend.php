@@ -9,10 +9,9 @@ return [
         ->get('/llms.txt', 'quasimo-llms-txt.index', LlmsTxtController::class)
         ->get('/llms-full.txt', 'quasimo-llms-txt.full', LlmsTxtController::class),
 
-    // Register admin frontend JS + CSS
+    // Register admin frontend JS
     (new Extend\Frontend('admin'))
-        ->js(__DIR__ . '/js/dist/admin.js')
-        ->css(__DIR__ . '/less/admin/extension.less'),
+        ->js(__DIR__ . '/js/dist/admin.js'),
 
     // Register locale files
     new Extend\Locales(__DIR__ . '/resources/locale'),

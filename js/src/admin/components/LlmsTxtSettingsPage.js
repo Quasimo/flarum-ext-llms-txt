@@ -1,8 +1,8 @@
-import ExtensionPage from 'flarum/components/ExtensionPage';
-import Alert from 'flarum/components/Alert';
-import Button from 'flarum/components/Button';
-import Switch from 'flarum/components/Switch';
-import Select from 'flarum/components/Select';
+import ExtensionPage from 'flarum/admin/components/ExtensionPage';
+import Alert from 'flarum/common/components/Alert';
+import Button from 'flarum/common/components/Button';
+import Switch from 'flarum/common/components/Switch';
+import Select from 'flarum/common/components/Select';
 
 export default class LlmsTxtSettingsPage extends ExtensionPage {
   oninit(vnode) {

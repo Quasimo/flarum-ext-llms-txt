@@ -1,4 +1,4 @@
-import ExtensionPage from 'flarum/admin/components/ExtensionPage';
+import ExtensionPage from 'flarum/common/components/ExtensionPage';
 import Alert from 'flarum/common/components/Alert';
 import Button from 'flarum/common/components/Button';
 import Switch from 'flarum/common/components/Switch';

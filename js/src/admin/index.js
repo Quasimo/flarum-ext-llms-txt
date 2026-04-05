@@ -1,4 +1,4 @@
-import app from 'flarum/admin/app';
+import app from 'flarum/app';
 
 app.initializers.add('quasimo-llms-txt', () => {
   const baseUrl = window.location.origin;

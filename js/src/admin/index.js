@@ -1,7 +1,9 @@
 app.initializers.add('quasimo-llms-txt', () => {
   const baseUrl = window.location.origin;
 
-  app.extensionData
+  const registry = app.registry || app.extensionData;
+
+  registry
     .for('quasimo-llms-txt')
     .registerSetting({
       setting: 'llms_txt.enabled',
